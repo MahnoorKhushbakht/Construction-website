@@ -2,7 +2,7 @@
 
 export default function ExpertContact() {
   return (
-    <section className="bg-white py-12 p-10 flex justify-center items-center">
+    <section className="bg-white py-5 flex justify-center items-center">
       <div className="container mx-auto px-1 flex flex-col lg:flex-row justify-center items-center gap-8">
         
 
@@ -41,13 +41,19 @@ export default function ExpertContact() {
             </li>
           </ul>
 
-      
-          <div className="mb-6 text-sm md:text-base font-medium">
+      <div className="flex items-center gap-3">
+        <img
+          src="./images/special-offer.png"
+          alt="Construction Expert"
+          className="w-20 h-20 rounded-full object-cover"
+        />
+        <div className="mb-6 text-sm md:text-base font-medium">
             <p className="font-bold text-black">LIMITED-TIME OFFER</p>
             <p className="text-black">Get $250 Off Your First Service! <br />(Book before April 30)</p>
           </div>
+      </div>
      <div className="flex flex-col md:flex-row gap-4">
- <button className="text-black text-lg md:text-xl font-bold italic capitalize py-10 px-16 !bg-amber-400 rounded w-auto hover:bg-amber-500 transition-colors duration-300">
+ <button className="text-black text-lg md:text-xl font-bold italic capitalize py-3 px-6 !bg-amber-400 rounded w-auto hover:bg-amber-500 transition-colors duration-300">
   Schedule Consultation
 </button>
 

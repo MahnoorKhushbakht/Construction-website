@@ -60,14 +60,14 @@ export default function Contact() {
       <div className="container mx-auto px-5 flex flex-col lg:flex-row items-center gap-12">
 
       
-        <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 space-y-6 text-left">
           <h2 className="text-3xl font-bold italic text-black">
             Let’s Get Started – <br />
             Contact Us Today!
           </h2>
 
-          {/* ONE COLUMN Contact Items */}
-          <div className="flex flex-col gap-5 items-center lg:items-start">
+         
+          <div className="flex flex-col gap-5 items-start">
             {contactItems.map((item, index) => (
               <div key={index} className="flex items-center gap-4">
                 
